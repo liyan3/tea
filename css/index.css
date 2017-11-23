@@ -1,0 +1,214 @@
+html, body {
+    width: 100%;
+    max-width: 100%;
+    min-width: 320px;
+}
+/*页尾--------------------------------------*/
+#footer .detail a:hover,#footer h4>a:hover{
+    color:#62a8ea;
+    text-decoration:none;
+}
+/*页头的------------------------------------*/
+
+.navbar{
+  border:0;
+}
+.navbar-default {
+    background-color: #fff;
+}
+.my-logo{
+    position:absolute;
+    top:0;
+    width:150px;
+    height:50px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:#4e97d9;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #4e97d9;
+    background-color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #4e97d9;
+    background-color: #fff;
+}
+ .dropdown-menu>li>a:hover{
+    color:#4e97d9;
+    background-color:#fff;
+}
+.dropdown>li>a:hover .dropdown-menu{
+  display:block;
+}
+.navbar-default .form-header{
+    margin:7px 20px;
+}
+.navbar-default .btn-info{
+  color:#5bc0de;
+  background-color:#fff;
+}
+
+/*轮播图*-------
+--*********/
+.my-main{
+  margin-top:50px;
+}
+#banner{
+  width:100%;
+  height:100%;
+}
+.carousel-indicators>li{
+  border:1px solid #BFBDB9;
+  background-color:#BFBDB9;
+}
+.carousel-indicators .active {
+    background-color: #423d3d;
+	 border:1px solid #423d3d;
+}
+
+/*招商联盟***************************/
+.cmbc{
+  padding:70px 0;
+  margin:0 auto;
+  text-align:center;
+}
+h2{
+    font-size:36px;
+}
+h2,h3{
+    margin-bottom:11px;
+}
+a:hover{
+    text-decoration:none;
+    color: #5f95ff;
+}
+ .p-join{
+    font-size: 16px;
+    font-weight: 300;
+    color: #5e7387;
+}
+.cmbc .join{
+    font-weight: 300;
+    color: #5e7387;
+}
+/*产品展示************/
+.product >.container{
+    /*position:relative;*/
+}
+.product{
+    margin:0 auto;
+    padding:70px 0;
+    background-color:#f5f5f5;
+    text-align:center;
+    position:relative;
+}
+.active{
+    color:#5bc0de;
+}
+.tea-nav ul{
+    margin:30px auto;
+    text-align: center;
+}
+/*加载动画*/
+/*.animation-slide-top{*/
+    /*position:absolute;*/
+    /*transition:all 0.8s linear;*/
+    /*top:-50px;*/
+    /*right:45%;*/
+/*}*/
+.animation-slide-top:hover{
+    top:-30px;
+}
+.nav-pills>li{
+    background-color:#fff;
+    margin-right:3px;
+}
+.nav-pills>li>a{
+    color:#76838f;
+    border-radius:0;
+    padding: 10px 10px;
+}
+/*图片及介绍*/
+.product-all{
+    background-color:#fff;
+    width:100%;
+}
+.product-all img{
+    width:100%
+}
+.product .col-md-3,.product .col-xs-6{
+    padding-top:10px;
+    padding-right:0;
+}
+.product-all h4{
+    padding-bottom:10px;
+}
+.product-all h4>a{
+    color:#37474f;
+    font-size:16px;
+}
+.product-all h4>a:hover{
+    color:#62a8ea;
+    text-decoration:underline;
+}
+/*新闻资讯*/
+.news .container>.row{
+    margin:0 auto;
+    padding:70px 0;
+    text-align:center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.news .news-intro img{
+    width:160px;
+    height:107px;
+}
+.news-intro .col-md-4{
+    padding-left:30px;
+}
+.news-intro .des{
+    margin:10px 0;
+    color: #76838f;
+    font-weight: 300;
+}
+.news-intro h4>a{
+    color:#2a333c;
+}
+.news-intro .info{
+    color:#76838f;
+}
+.news-intro .media-heading:hover{
+    color:#62a8ea;
+    text-decoration:underline;
+}
+.news-intro .info>span{
+    margin-right:9px;
+}
+
+/*关于我们*/
+.our{
+    padding:70px 0;
+    background:#f5f5f5;
+}
+.our>.container>.row{
+    text-align:center;
+    background:#f5f5f5;
+}
+.our .item{
+    background:#fff;
+    margin-top:30px;
+    padding-top:50px;
+}
+.our .item img{
+    width:100%;
+}
+.item .word{
+    font-size:17px;
+    font-weight:300;
+    margin-bottom:10px;
+    color:#222;
+    /*font-family:Verdana;*/
+}
+.our-word{
+    margin-bottom:30px;
+}

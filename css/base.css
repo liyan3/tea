@@ -1,0 +1,38 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dd,dl,pre{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  cursor:pointer;
+}
+i,em{
+  font-weight:400;
+}
+body{
+  font:12px/1.5 "Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft YaHei,\5b8b\4f53,sans-serif";
+  color: #323232;
+  text-align: left;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",Roboto,Arial,sans-serif;
+    text-shadow: rgba(0,0,0,.15) 0 0 1px;
+	color:#37474f;
+}
+
+   
+button,input,button{
+  outline:none;
+  padding:0;
+  margin:0;
+  color:#636363;
+  outline:none;  
+}
+.clear:after{
+  content:"";
+  clear:both;
+  display:block;
+}

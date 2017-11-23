@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>回味茶叶</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!--1、头部导航-->
+<nav class="navbar navbar-default">
+    <div class="container container-fluid">
+        <!--头部两边的导航-->
+       <div class="navbar-header">
+           <!--左边的导航-->
+           <a href="index.html" class="navbar-brand my-logo">
+               <img src="img/logo.png" alt="回味茶叶" class="my-logo">
+           </a>
+           <!--//右边的面包屑-->
+           <a href="#menu" class="navbar-toggle" data-toggle="collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+           </a>
+       </div>
+        <!--//隐藏的-->
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav navbar-right form-header">
+                <button type="button" class="btn btn-success">注册</button>
+                <button type="button" class="btn btn-info">登录</button>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">首页</a></li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown">关于我们
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">公司反馈</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">在线反馈</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">招商加盟</a></li>
+                <li><a href="#">新闻资讯</a></li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown">产品展示
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">清茶系列</a></li>
+                        <li><a href="#">绿茶系列</a></li>
+                        <li><a href="#">黑茶系列</a></li>
+                        <li><a href="#">花果茶系列</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<script src="js/bootlint.js"></script>
+<script>
+    bootlint.showLintReportForCurrentDocument([]);
+</script>
+</body>
+</html>

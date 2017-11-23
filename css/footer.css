@@ -1,0 +1,51 @@
+.footer{
+    margin:0 auto;
+    padding:50px 0;
+    text-align: center;
+}
+.row{
+    margin:0;
+}
+.footer h4>a{
+    color:#2a333c;
+}
+.footer .detail a,.footer-link>p>a,.footer-link>p{
+   color: #5e7387;
+}
+.footer .detail a:hover,#footer h4>a:hover{
+    color:#62a8ea;
+    text-decoration:none;
+}
+.footer h4{
+    color:#5e7387;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer h3{
+    color:#5e7387;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer .chat>a{
+    margin-left:12px;
+}
+.footer .chat .text-qq{
+    color:#62a8ea;
+}
+.footer .chat .text-weixin{
+    color:#83b944;
+}
+.footer .chat .text-weibo{
+    color:#f96868;
+}
+.footer .chat{
+    margin-top:10px;
+}
+.footer-link>p>a:hover{
+    text-decoration: underline;
+}
+.footer-link{
+    margin-top:20px;
+    border-top:1px solid #ddd;
+    padding-top:15px;
+}
